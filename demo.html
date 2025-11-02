@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>setTimeout vs requestAnimationFrame</title>
+</head>
+<body>
+<div id="box"></div>
+
+<script>
+    const add = async()=>{
+        console.log('11')
+        return 11
+        // throw new Error('错误')
+    }
+     const res = await add()
+    console.log('res',res)
+
+</script>
+</body>
+</html>
